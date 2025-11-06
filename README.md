@@ -34,7 +34,18 @@ Repositori ini berisi kode untuk dua komponen utama sistem:
 | **Hardware (Gateway)** | **Raspberry Pi** | [cite_start]Perangkat yang menjalankan Gateway Lokal[cite: 367, 400]. |
 
 ## 📁 Struktur Proyek
-/ (Repositori Utama) ├── mbg-gateway/ │ ├── app.py # Server Flask untuk Gateway │ ├── local_gateway.db # Database cache lokal (SQLite) │ ├── migrations/ # Folder migrasi Alembic │ └── ... # (file venv, dll) │ └── mbg-main-server/ ├── app.py # Server Flask untuk Server Utama ├── migrations/ # Folder migrasi Alembic └── ... # (file venv, dll)
+
+/
+├── mbg-gateway/
+│   ├── app.py                # Server Flask untuk Gateway
+│   ├── local_gateway.db      # Database cache lokal (SQLite)
+│   ├── migrations/           # Folder migrasi Alembic
+│   └── ...                   # File tambahan (mis. venv, konfigurasi, dll)
+│
+└── mbg-main-server/
+    ├── app.py                # Server Flask untuk Server Utama
+    ├── migrations/           # Folder migrasi Alembic
+    └── ...                   # File tambahan (mis. venv, konfigurasi, dll)
 
 ## 🛠️ Panduan Instalasi dan Setup
 
