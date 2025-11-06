@@ -36,16 +36,16 @@ Repositori ini berisi kode untuk dua komponen utama sistem:
 ## 📁 Struktur Proyek
 
 /
-├── mbg-gateway/
-│   ├── app.py                # Server Flask untuk Gateway
-│   ├── local_gateway.db      # Database cache lokal (SQLite)
-│   ├── migrations/           # Folder migrasi Alembic
-│   └── ...                   # File tambahan (mis. venv, konfigurasi, dll)
-│
-└── mbg-main-server/
-    ├── app.py                # Server Flask untuk Server Utama
-    ├── migrations/           # Folder migrasi Alembic
-    └── ...                   # File tambahan (mis. venv, konfigurasi, dll)
+|-- mbg-gateway/
+|   |-- app.py                # Server Flask untuk Gateway
+|   |-- local_gateway.db      # Database cache lokal (SQLite)
+|   |-- migrations/           # Folder migrasi Alembic
+|   `-- ...                   # File tambahan
+|
+`-- mbg-main-server/
+    |-- app.py                # Server Flask untuk Server Utama
+    |-- migrations/           # Folder migrasi Alembic
+    `-- ...                   # File tambahan
 
 ## 🛠️ Panduan Instalasi dan Setup
 
